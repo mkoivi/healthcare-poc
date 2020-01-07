@@ -1,0 +1,15 @@
+{
+	"name": "ChestXray",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ChestXray",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": "chest-xray-pneumonia/download"
+		},
+		"schema": []
+	}
+}
