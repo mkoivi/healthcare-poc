@@ -1,0 +1,18 @@
+{
+	"name": "ChstXrayADLSBin",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "hcpocadls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "chest-xray",
+				"fileSystem": "rawdata"
+			}
+		}
+	}
+}

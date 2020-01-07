@@ -23,7 +23,7 @@
 						}
 					},
 					"sink": {
-						"type": "OrcSink",
+						"type": "BinarySink",
 						"storeSettings": {
 							"type": "AzureBlobFSWriteSettings",
 							"copyBehavior": "PreserveHierarchy"
@@ -39,7 +39,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "Orc1",
+						"referenceName": "ChstXrayADLSBin",
 						"type": "DatasetReference"
 					}
 				]
