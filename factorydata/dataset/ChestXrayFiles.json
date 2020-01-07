@@ -1,0 +1,17 @@
+{
+	"name": "ChestXrayFiles",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpChestXray",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "chest-xray-pneumonia/download"
+			}
+		}
+	}
+}
