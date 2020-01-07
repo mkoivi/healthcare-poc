@@ -1,0 +1,12 @@
+{
+	"name": "ChestXray",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://www.kaggle.com/paultimothymooney/",
+			"enableServerCertificateValidation": false,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
